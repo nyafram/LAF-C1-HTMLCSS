@@ -1,0 +1,42 @@
+.logo {grid-area: logo;}
+.header {grid-area: header;}
+.nav {grid-area: navigation;}
+.about {grid-area: about;}
+.quick_link1 {grid-area: quick_link1;}
+.quick_link2 {grid-area: quick_link2;}
+.footer {grid-area: footer;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'logo logo logo logo logo logo'
+    'header header header header header header'
+    'navigation navigation navigation navigation navigation navigation'
+    'about about about about quick_link1 quick_link1'
+    'about about about about quick_link2 quick_link2'
+    'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.grid-container > div{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.nav{
+        display: flex;
+        background-color: white;
+        width: 100%;
+        gap: 10px;
+      }
+      
+      .nav > div {
+        background-color: #f1f1f1;
+        width: 25%;
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+      }
+    
