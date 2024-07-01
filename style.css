@@ -25,18 +25,36 @@
     padding: 20px 0;
     font-size: 20px;
 }
+.header{
+  Display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:30px 30px 30px 30px;
+}
+
 .nav{
-        display: flex;
-        background-color: white;
-        width: 100%;
-        gap: 10px;
+      Display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 0.5px;
+      justify-items: center;
+      gap: 10px;
       }
       
       .nav > div {
-        background-color: #f1f1f1;
-        width: 25%;
         margin: 10px;
         padding: 20px;
         font-size: 20px;
+        
       }
-    
+.about{
+  Display: grid;
+  grid-template-rows: 60px 60px 60px 60px; 
+}
+.quick_link2{
+  Display: grid;
+  grid-template-rows: 30px 30px 30px 30px;
+}
+.footer{
+  Display: grid;
+  grid-template-rows:30px 30px 30px 30px;
+}
+
